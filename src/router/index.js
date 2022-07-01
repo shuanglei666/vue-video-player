@@ -12,6 +12,11 @@ const routes = [
     path: '/index2',  // 基础版
     name: 'index2',
     component: () => import(/* webpackChunkName: "about" */ '../views/index2.vue')
+  },
+  {
+    path: '/index3',  // 升级版
+    name: 'index3',
+    component: () => import(/* webpackChunkName: "about" */ '../views/index3.vue')
   }
 ]
 
